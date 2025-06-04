@@ -16,12 +16,12 @@ interface HistoryEntry {
 
 export default function HomePage() {
   const [tasks, setTasks] = useState<Task[]>([
-    { name: "Read 10 pages", progress: 0, icon: "📚" },
-    { name: "Meditate", progress: 0, icon: "🧘" },
-    { name: "Exercise", progress: 0, icon: "💪" },
+    { name: "Read books consistently", progress: 0, icon: "📚" },
+    { name: "Meditate daily", progress: 0, icon: "🧘" },
+    { name: "Exercise daily", progress: 0, icon: "💪" },
     { name: "Clean workspace", progress: 0, icon: "🧹" },
     { name: "Do Coding", progress: 0, icon: "💻" },
-    { name: "Listen one Tech podcast", progress: 0, icon: "🎧" },
+    { name: "Listen Tech podcasts daily", progress: 0, icon: "🎧" },
     { name: "Family time", progress: 0, icon: "👪" },
     { name: "Drink water", progress: 0, icon: "💧" }
   ]);

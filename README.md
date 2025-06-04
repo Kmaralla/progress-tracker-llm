@@ -152,12 +152,12 @@ progress-tracker-app/
 
 ## 🎯 Key Features Explained
 
-### Progress Tracking System
+### Progress Tracking System for medium term goals
 - **Scale**: 0-10 for each habit (like phone battery percentage)
 - **Persistence**: Data saved in browser's localStorage
 - **Visual Indicators**: Progress bars with color coding
 - **Aggregation**: Overall progress percentage across all habits
-
+- **Reset**: You can reset anytime to start from scratch , but history is preserved.
 ### AI Integration
 - **Local AI**: Uses Ollama for privacy and offline capability
 - **Context Injection**: AI receives your actual progress data
@@ -216,16 +216,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Tailwind CSS](https://tailwindcss.com/) for beautiful styling
 - [Ollama](https://ollama.ai/) for local AI capabilities
 - [shadcn/ui](https://ui.shadcn.com/) for UI component inspiration
-
-## 📸 Screenshots Needed
-
-To complete this README, please add these screenshots to a `screenshots/` folder:
-
-1. **main-dashboard.png** - Main progress tracking interface showing all habits
-2. **dashboard.png** - Dashboard with some progress filled in
-3. **ai-chat.png** - Chat interface showing conversation with AI
-4. **summary.png** - Progress summary/analytics view
-5. **mobile-view.png** - Mobile responsive design (optional)
 
 ## 🐛 Known Issues
 
